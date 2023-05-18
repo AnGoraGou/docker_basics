@@ -1,2 +1,2 @@
- 
- sudo docker run -it -v /raid/gora/KCL/:/workspace/ --gpus '"device=5"' --ip 0.0.0.0 --p 6003 --ipc-host gora_multiple_anot
+
+gora@iitb-dgx8:~$ docker run -it -v /raid/gora/KCL/:/workspace/ --gpus '"device=7"' --ip 0.0.0.0 -p 6007 --ipc=host gora_multiple_anot

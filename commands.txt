@@ -1,1 +1,9 @@
 docker run -it -v /raid/gora/KCL/:/workspace/ --gpus '"device=7"' --ip 0.0.0.0 -p 6007 --ipc=host gora_multiple_anot
+docker exec -it container_id bash
+docker start container_id
+docker ps
+docker ps -a
+docker images
+docker commit source_name(container_name) name_to_save
+docker save -o image_name(in .tar)
+docker load -i image_name(in .tar)

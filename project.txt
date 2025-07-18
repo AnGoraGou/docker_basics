@@ -1,0 +1,6 @@
+/raid/gora/icmr
+/raid/gora/KCL
+/raid/gora/lnlc
+/raid/gora/ph_uq
+/raid/gora/uq
+/raid/gora/ssl
